@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background-color: rgb(220, 220, 220);
+}
+
+.logo {
+  margin-left: 5%;
+  margin-right: 50%;
+  font-size: 20px;
+  
+}
+
+.nav-links{
+  display: flex;
+  align-items: center;
+  background: #fff;
+  padding: 20px 15px;
+  border-radius: 12px;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+.nav-links li{
+  list-style: none;
+  margin: 0 2%;
+}
+.nav-links li a{
+  position: relative;
+  color: #333;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 6px 0;
+  text-decoration: none;
+}
+.nav-links li a:before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 3px;
+  width: 0%;
+  background: #34efdf;
+  border-radius: 12px;
+  transition: all 0.4s ease;
+}
+.nav-links li a:hover:before{
+  width: 100%;
+}
+.nav-links li.forward a:before{
+  width: 100%;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease;
+}
+.nav-links li.forward a:hover:before{
+  transform: scaleX(1);
+  transform-origin: left;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  margin-top: 5%;
+  margin-left: 7%;
+}
+
+.content img {
+  width: 40%;
+  border-radius: 10%;
+}
+
+.container {
+  margin-left: 10%;
+  margin-right: 5%;
+  background: white;
+  padding: 5%;
+  border-radius: 10%;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+}
+
+.container h1 {
+  text-align: left;
+  font-size: 50px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.experience {
+  margin: 5% 10%;
+}
+
+.experience h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+.job {
+  margin-bottom: 30px;
+}
+
+.job h3 {
+  font-size: 24px;
+  color: #333;
+}
+
+.job p {
+  font-style: italic;
+  color: #777;
+}
+
+.job ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
