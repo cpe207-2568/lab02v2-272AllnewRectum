@@ -72,21 +72,32 @@ body {
 .content img {
   width: 40%;
   border-radius: 10%;
+  margin-bottom: 5%;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
 }
 
 .container {
   margin-left: 10%;
   margin-right: 5%;
+  margin-bottom: 5%;
   background: white;
   padding: 5%;
   border-radius: 10%;
   box-shadow: 0 5px 10px rgba(0,0,0,0.2);
+  font-family: 'Poppins', sans-serif;
 }
 
 .container h1 {
   text-align: left;
   font-size: 50px;
-  font-family: 'Poppins', sans-serif;
+}
+
+hr {
+  border: none;
+  height: 2px;
+  background-color: #34efdf;
+  width: 80%;
+  margin: 40px auto;
 }
 
 .experience {
@@ -96,6 +107,8 @@ body {
 .experience h2 {
   font-size: 32px;
   margin-bottom: 20px;
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
 }
 
 .job {
@@ -117,3 +130,12 @@ body {
   list-style-type: disc;
 }
 
+.container text h1 {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container text p {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+}
